@@ -8,7 +8,7 @@ const explicitParams = {
   baseUrl: path.resolve(outDir),
   paths: tsConfig.compilerOptions.paths,
 };
-const cleanup = tsConfigPaths.register(explicitParams);
+tsConfigPaths.register(explicitParams);
 
 // TODO: clean-up when path registration is no longer needed
 //cleanup();

@@ -7,6 +7,6 @@ console.log(people);
 console.log('');
 
 const data = new Date();
-console.log(data.toISOString())
-console.log(DateTime.fromJSDate(data).toISO()?.toString())
-console.log(DateTime.fromJSDate(data)?.toString())
+console.log(data.toISOString());
+console.log(DateTime.fromJSDate(data).toISO()?.toString());
+console.log(DateTime.fromJSDate(data)?.toString());
