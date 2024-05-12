@@ -10,11 +10,11 @@ Type Script Start
 - npm install tsconfig-paths -D
 
 ## ESLINT
-npm install eslint -D
-npm install typescript-eslint - D
-npm install eslint @typescript-eslint/parser -D
-npm install eslint @typescript-eslint/eslint-plugin -D
-npx eslint --init
-npx eslint .
+- npm install eslint -D
+- npm install typescript-eslint - D
+- npm install eslint @typescript-eslint/parser -D
+- npm install eslint @typescript-eslint/eslint-plugin -D
+- npx eslint --init
+- npx eslint . OR npm run lint
 
 file of configuration = eslint.config.mjs
