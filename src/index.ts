@@ -1,5 +1,5 @@
-import { DateTime } from "luxon";
-import { People } from "./models/people";
+import { DateTime } from 'luxon';
+import { People } from './models/people';
 
 console.log('');
 const people = new People();
