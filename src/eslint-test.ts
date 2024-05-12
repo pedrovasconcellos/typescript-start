@@ -1,6 +1,8 @@
 import { DateTime } from "luxon";
 
 CreateTet('er');
+ComplexFunction(1);
+
 function CreateTet(nome: String): String{
     while (true){
 

@@ -13,7 +13,7 @@ export default {
   rules: {
     // Regras específicas para TypeScript do plugin:@typescript-eslint
     '@typescript-eslint/no-unused-vars': ['error', { 'argsIgnorePattern': '^_' }],
-    '@typescript-eslint/semi': ['error', 'always'],
+    '@typescript-eslint/semi': ['warn', 'always'],
     '@typescript-eslint/explicit-function-return-type': ['warn', {
       'allowExpressions': true,
       'allowTypedFunctionExpressions': true
@@ -24,11 +24,11 @@ export default {
 
     // Regras de Estilo
     'quotes': ['error', 'single'], // Aspas simples
-    'brace-style': ['error', '1tbs'], // Estilo de colocação de chaves
+    'brace-style': ['warn', '1tbs'], // Estilo de colocação de chaves
     'camelcase': 'error', // Nomes de variáveis em camelCase
 
     // Práticas Recomendadas
-    'no-constant-condition': 'warn', // Evita condições constantes em loops
+    'no-constant-condition': 'error', // Evita condições constantes em loops
     'no-eval': 'error', // Desativa o uso de eval()
     //'no-unused-vars': 'warn', // Alerta sobre variáveis não utilizadas
 
@@ -40,7 +40,10 @@ export default {
 
     // Segurança
     'no-inline-comments': 'off',
+
+    //----ANALISAR COMO COLOCAR ESTES DOIS ELEMENTOS ----
     //'security/detect-object-injection': 'off', // Específico de plugins de segurança
     //'security/detect-non-literal-fs-filename': 'warn' // Evita manipulação insegura de nomes de arquivos
+    //----------------------------------------------------
   }
 };
