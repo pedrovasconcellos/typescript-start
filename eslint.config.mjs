@@ -45,5 +45,11 @@ export default {
     //'security/detect-object-injection': 'off', // Específico de plugins de segurança
     //'security/detect-non-literal-fs-filename': 'warn' // Evita manipulação insegura de nomes de arquivos
     //----------------------------------------------------
+    
+    // Regras estritas
+    'eqeqeq': ['error', 'always'], // Força o uso de === e !==
+    'strict': ['error', 'global'], // Força 'use strict' globalmente
+    'no-implicit-globals': 'error', // Proíbe declarações globais implícitas
+    //'no-console': 'warn' // Avisa sobre o uso de console.log
   }
 };
